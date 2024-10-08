@@ -1,0 +1,15 @@
+.resultados {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        border: 2px solid #20b5f5;
+        border-radius: 5px;
+        background-color: #f0f7fa;
+        font-size: 1.2rem;
+        font-family: 'Arial', sans-serif;
+        color: #20b5f5;
+    }
